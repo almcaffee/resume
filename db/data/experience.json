@@ -1,0 +1,82 @@
+{
+    "languages": [
+        "CSS3",
+        "JavaScript",
+        "SASS",
+        "LESS",
+        "HTML5",
+        "TypeScript"
+    ],
+    "frameworks": [
+        "Angular",
+        "React",
+        "Handlebars",
+        "Lightning",
+        "Bootstrap",
+        "jQuery",
+        "ColdFusion"
+    ],
+    "api": [
+        "Geolocation API",
+        "openAPI",
+        "Google Maps API",
+        "Google Places API"
+    ],
+    "backEnd": [
+        "Node.js",
+        "Express",
+        "ColdFusion"
+    ],
+    "test": [
+        "Cypress",
+        "React Testing Library",
+        "Jest",
+        "Karma",
+        "Enzyme",
+        "TDD",
+        "BDD"
+    ],
+    "versionControl": [
+        "GitHub",
+        "Bitbucket",
+        "GitLab",
+        "SVN",
+        "Git CLI"
+    ],
+    "database": [
+        "MySQL",
+        "MongoDB"
+    ],
+    "devops": [
+        "Spinnaker",
+        "Jenkins",
+        "Pivotal Cloud Foundry",
+        "GCloud",
+        "AWS"
+    ],
+    "agile": [
+        "Scrum",
+        "Kanban",
+        "Sprint planning",
+        "Daily standups",
+        "Sprint retrospectives",
+        "Backlog grooming",
+        "Story pointing",
+        "User story creation"
+    ],
+    "development": [
+        "Code reviews",
+        "Pair programming",
+        "Mentoring",
+        "Documentation",
+        "Technical writing",
+        "Unit testing",
+        "Integration testing",
+        "End-to-end testing",
+        "Continuous integration",
+        "Continuous delivery",
+        "Continuous deployment",
+        "On-call support",
+        "Production support"
+    ]
+}

@@ -1,0 +1,203 @@
+
+body {
+    border: 50px solid #333333;
+    border-top: none;
+}
+
+body,
+.swagger-ui {
+    color: #dedede;
+    background-color: #282828;
+}
+
+.swagger-ui .topbar {
+    background-color: #333333;
+}
+
+* {
+    outline: none !important;
+}
+
+/* 252526 */
+
+.swagger-ui .info li, .swagger-ui .info p, .swagger-ui .info table, .swagger-ui .info td, .swagger-ui .info th, .swagger-ui .info tr,
+ .swagger-ui .opblock-tag, .swagger-ui .opblock-tag a, .swagger-ui .opblock-tag-section, .swagger-ui .opblock-tag-section a,
+  .swagger-ui .opblock-tag-section.is-open, .swagger-ui .opblock-tag-section.is-open a, .swagger-ui .opblock-tag-section.is-open .opblock-tag,
+.swagger-ui .info .title, .swagger-ui .tab li {
+    color: #dedede !important;
+}
+
+.opblock {
+    border: none !important;
+}
+
+.swagger-ui .opblock {
+    background-color: #252526 !important;
+    border: 1px solid rgba(204, 204,204,0.05) !important;
+}
+.opblock.is-open {
+    border: 1px solid rgba(204, 204,204,0.1) !important;
+}
+
+
+.swagger-ui .opblock-control-arrow ,
+.swagger-ui .opblock-tag svg {
+    fill: #dedede !important;
+}
+
+.swagger-ui .opblock .opblock-section-header {}
+
+.opblock-tag {
+    flex-direction: row-reverse;
+}
+.opblock-tag-section:first-of-type {
+
+}
+
+.swagger-ui .opblock-tag small {
+    display: none !important;
+}
+.swagger-ui .opblock-tag a {
+    flex-grow: 1;
+}
+
+.information-container {
+
+}
+
+.swagger-ui .response-col_status {
+    color: #d7ba7d !important;
+}
+
+.swagger-ui .response-col_description {
+    color: #0dbc79 !important;
+}
+
+/* .swagger-ui .tab li {
+    color: #d8b31c !important;
+} */
+
+.parameter__name  {
+    color: #d8b31c !important;
+}
+
+
+.parameters-col_description div:first-of-type {
+color: #0dbc79 !important;
+}
+.parameters-col_description div:not(.parameters-col_description div:first-of-type) {
+    margin: 3px 0px !important;
+
+color: #cccccc !important;
+font-size: 80%;
+}
+
+.parameters-col_description div i {
+color: #858585 !important;
+font-style: normal !important;
+font-weight: 700 !important;
+}
+
+/* color: #858585 !important; */
+
+/* #fffff0, #9c9c95, #bdbd9b #f5f5dc  */
+
+
+/* rbga(152,123,113,1) - #987b71
+rbga(245,245,220,1) - #f5f5dc 
+rbga(156,156,149,1) - #9c9c95 
+rbga(189,189,155,1) - #bdbd9b */
+
+/* .swagger-ui .opblock.opblock-get .opblock-summary-method {
+ background-color: #bdbd9b !important;
+} */
+.swagger-ui .opblock-summary-method {
+ background: none !important;
+}
+
+.opblock-section-header {
+    background-color: #333333 !important;
+}
+
+.swagger-ui .opblock .opblock-summary-description,
+.try-out__btn,
+.opblock-title {
+    color: #d8b31c !important;
+}
+
+.parameters-col_name,.parameters-col_name *,
+.parameters-col_description, .parameters-col_description *,
+.response-col_links,
+.swagger-ui .opblock-description-wrapper p {
+    color: #ccc !important;
+}
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Source Code Pro', monospace; */
+
+.opblock-summary-path,
+.model-title__text,
+.model-title,
+.models-control,
+.swagger-ui .opblock-tag.no-desc span {
+ font-family: 'Source Code Pro', 'Open Sans', monospace, sans-serif !important;
+}
+
+.models-control,
+.swagger-ui .opblock-tag.no-desc span {
+    color: #d7ba7d !important;
+ font-size: 24px !important;
+ font-weight: 500;
+}
+
+.opblock-tag .expand-operation {
+    display: none !important;
+}
+
+.swagger-ui .btn.execute {
+        background-color: #282828 !important;
+        border-color: #c8defa !important;
+}
+
+h4, h5, .response[data-code="200"] .response-col_status, .response[data-code="204"] .response-col_status {
+    color: #c8defa !important;
+}
+
+.response[data-code="500"] .response-col_status {
+    color: #d8b31c !important;
+}
+.microlight,
+.highlight-code pre {
+    background-color: #212121 !important;
+}
+
+
+
+.prop-type,
+.swagger-ui .model-title {
+    color: #569ccb !important;
+}
+.swagger-ui .model {
+    color: #dedede !important;
+}
+.swagger-ui .model-title,
+.model-title__text {
+    color: #d7ba7d !important;
+}
+
+.swagger-ui .models-control svg {
+    fill: #d7ba7d !important;
+}
+
+.gxv {
+    fill: #d7ba7d !important;
+}
+
+.swagger-ui .model-toggle:after {
+    background: url("data:image/svg+xml;charset=utf-8,<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"gxv\" width=\"24\" height=\"24\"><path fill=\"white\" d=\"M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z\"/></svg>") 50% no-repeat !important;
+    /* background-size: 100%;
+    content: "";
+    display: block;
+    height: 20px;
+    width: 20px; */
+}

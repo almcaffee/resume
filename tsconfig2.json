@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "ES5",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    // "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    // "removeComments": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noImplicitReturns": true,
+    // "noFallthroughCasesInSwitch": true,
+    "typeRoots": ["node_modules/@types"],
+    "paths": {
+      "@Data/*": ["./src/data/*"],
+      "@Generators/*": ["./src/generators/*"]
+    },
+    "resolveJsonModule": true
+  },
+  "lib": ["es2015", "es5", "es6", "esnext"],
+  "exclude": ["node_modules"]
+}
