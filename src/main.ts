@@ -26,12 +26,12 @@ async function bootstrap() {
 
   const document = SwaggerModule.createDocument(app, config, options);
   const customSwaggerOptions: SwaggerCustomOptions = {
-    customSiteTitle: 'Resume API',
+    customSiteTitle: 'Resume REST API',
     customCssUrl: '/assets/swagger-custom.css',
     customJs: '/assets/swagger-custom.js',
   };
   SwaggerModule.setup('api-docs', app, document, customSwaggerOptions);
 
-  await app.listen(3000);
+  await app.listen(3100);
 }
 bootstrap();
