@@ -25,7 +25,7 @@ async function bootstrap() {
 
   const document = SwaggerModule.createDocument(app, config, options);
   const customSwaggerOptions: SwaggerCustomOptions = {
-    customSiteTitle: 'Resume API',
+    customSiteTitle: 'Resume REST API',
     customCssUrl: '/assets/swagger-custom.css',
     customJs: '/assets/swagger-custom.js',
   };
