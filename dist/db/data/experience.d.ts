@@ -1,0 +1,26 @@
+import { Experience, Skill, Position } from 'types';
+export declare const languages: Array<Experience>;
+export declare const markupStyles: Array<Experience>;
+export declare const frameworks: Array<Experience>;
+export declare const api: Array<Skill>;
+export declare const backEnd: Array<Experience>;
+export declare const test: Array<Skill>;
+export declare const versionControl: Array<Skill>;
+export declare const database: Array<Skill>;
+export declare const devops: Array<Skill>;
+export declare const agile: Array<Skill>;
+export declare const development: Array<Skill>;
+export declare const jobs: Array<Position>;
+declare const _default: {
+    languages: Experience[];
+    frameworks: Experience[];
+    api: Skill[];
+    backEnd: Experience[];
+    test: Skill[];
+    versionControl: Skill[];
+    database: Skill[];
+    devops: Skill[];
+    agile: Skill[];
+    development: Skill[];
+};
+export default _default;
