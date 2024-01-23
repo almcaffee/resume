@@ -19,8 +19,17 @@
     "noFallthroughCasesInSwitch": false,
     "typeRoots": ["node_modules/@types"],
     "paths": {
-      "@Data/*": ["./src/data/*"],
-      "@Generators/*": ["./src/generators/*"]
+      "@config/*": ["./src/config/*"],
+      "@configs": ["./src/config/index.ts"],
+      "@controller/*": ["./src/controllers/*"],
+      "@controllers": ["./src/controllers/index.ts"],
+      "@dto": ["./src/dto/index.ts"],
+      "@data/*": ["./src/data/*"],
+      "@generators/*": ["./src/generators/*"],
+      "@module/*": ["./src/modules/*"],
+      "@modules": ["./src/modules/index.ts"],
+      "@service/*": ["./src/services/*"],
+      "@services": ["./src/services/index.ts"]
     },
     "resolveJsonModule": true
   },

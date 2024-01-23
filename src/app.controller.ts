@@ -5,7 +5,6 @@ import {
   NotFoundException,
   Param,
 } from '@nestjs/common';
-import { AppService } from './app.service';
 import { Experience, Skill } from 'types';
 import {
   ApiBearerAuth,
@@ -14,6 +13,7 @@ import {
   ApiTags,
 } from '@nestjs/swagger';
 import { ResumeExperience, ResumeSkill } from 'types/entities';
+import { AppService } from './app.service';
 
 /* 
   I do realize these paths would likely be in separate services, but for the sake of simplicity, 

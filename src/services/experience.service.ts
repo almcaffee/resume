@@ -135,6 +135,5 @@ export class ExperienceService {
     this.jobs.forEach((job) => {
       this.jobMap.set(job.id, job);
     });
-    console.log(this.jobMap);
   }
 }

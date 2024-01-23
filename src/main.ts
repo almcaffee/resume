@@ -9,7 +9,10 @@ import { AppModule } from './app.module';
 import { ValidationPipe } from '@nestjs/common';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule, { cors: true, logger: ['error', 'warn'], });
+  const app = await NestFactory.create(AppModule, {
+    cors: true,
+    logger: ['error', 'warn'],
+  });
   app.useGlobalPipes(new ValidationPipe());
   const config = new DocumentBuilder()
     .setTitle('Resume API')
@@ -32,9 +35,15 @@ async function bootstrap() {
   SwaggerModule.setup('api-docs', app, document, customSwaggerOptions);
   app.enableCors({
     origin: true,
-     allowedHeaders: ['Content-Type', 'Origin', 'X-Requested-With', 'Accept', 'Authorization'],
+    allowedHeaders: [
+      'Content-Type',
+      'Origin',
+      'X-Requested-With',
+      'Accept',
+      'Authorization',
+    ],
     // CORS HTTP methods
-    methods: ["GET", "POST", "PUT", "DELETE"],
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
   });
   await app.listen(3100);
 }
