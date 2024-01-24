@@ -28,6 +28,12 @@ export interface Position {
     headline?: string;
     stats?: Array<PositionUse>;
     stack?: Stack;
+    tags?: Array<string>;
+    keyContributions?: Array<{
+        title: string;
+        description: string;
+    }>;
+    positionType?: 'Perm' | 'Temp' | 'Contract' | 'Contract to Hire' | 'Internship' | 'Freelance' | 'Volunteer';
 }
 export declare type Stack = 'Full Stack' | 'Front End';
 export declare type UsageFrequency = 'Back to the drawing board' | 'Its been a while' | 'I use it occasionally' | 'Previous position' | 'Picking up steam' | 'Current position' | 'This application';

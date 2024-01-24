@@ -515,6 +515,7 @@ exports.jobs = [
         start: new Date('2023-04-02'),
         ended: new Date('2023-12-31'),
         stack: 'Front End',
+        positionType: 'Contract',
         headline: "My team was developing a first of its kind supply chain and inventory tracking SAAS application. I was responsible the implementation of unit tests and mock interceptors for offline testing as well as fo features that were dependent on api endpoints that were not yet complete. I was also responsible for the design and development of the api docs utilizing openapi and swagger. This was an agile team and we participated in all ceremonies including sprint planning, story pointing, demos and retrospectives. We implemented some really interesting functionality such as geolocation tracking of shipments across North American as well as scanning and automated inventory tools for business with large scale shipping and warehousing operations. It's unfortunate that cox shuttered this arm of their new business development with the change in leadership. I was looking forward to working with the team for a long time. I wish them all the best.",
         bullets: [
             {
@@ -530,12 +531,28 @@ exports.jobs = [
                 description: 'Participating in agile processes including sprint planning, story pointing, demos and retrospectives.',
             },
         ],
+        tags: [
+            'Angular',
+            'TypeScript',
+            'Jasmine',
+            'Karma',
+            'Swagger',
+            'OpenAPI',
+            'GitHub',
+            'GCloud',
+            'MixPanel',
+            'Demos',
+            'Agile',
+            'Cypress',
+            'Remote',
+        ],
         stats: [
-            { name: 'Angular', percentage: 80 },
-            { name: 'GitHub', percentage: 5 },
-            { name: 'GCloud', percentage: 7 },
-            { name: 'OAuth', percentage: 3 },
-            { name: 'Agile', percentage: 5 },
+            { name: 'Architecture/DevOps', percentage: 20 },
+            { name: 'Development', percentage: 50 },
+            { name: 'Peer Programming', percentage: 10 },
+            { name: 'Leadership', percentage: 5 },
+            { name: 'Sprint planning', percentage: 5 },
+            { name: 'Sprint review', percentage: 5 },
         ],
     },
     {
@@ -546,20 +563,45 @@ exports.jobs = [
         start: new Date('2022-03-02'),
         ended: new Date('2023-04-02'),
         stack: 'Front End',
+        positionType: 'Perm',
         headline: 'This was my initial foray into the world of FAANG or i guess its MAANG these days. I learned a lot about AWS tools and processes. Although I had a bit of imposter syndrome on my day 1, by my second week I was already fixing bugs shipping production code. Prior to Amazon, i had mostly been working in code bases that used class based React components. I was able to dive a lot deeper into hooks and functional components using Typescript. I became a better engineer during my time at Amazon. Its those simple things like using maps vs arrays in state and being able to peer program and share my knowledge with some extremely smart albeit hard headed engineers, lol. Last but not least, before my time at Amazon i can honestly say i thought code commit was the worst but after using it the way its meant to be used and will the full suite of tools, I can say its pretty awesome with AWS tools.',
         bullets: [
             {
                 description: 'Implementing new customer facing functionalities in Amazon retail space with React/Typescript. ',
             },
             {
-                description: 'Contributing to shared components libraries and building application pipelines using AWS CDK.',
+                description: 'Contributing to shared components libraries and architecture changes in the codebase.',
             },
             {
-                description: 'Implementing infrastructure changes using AWS tools such as S3, CloudFront, CloudFormation, and Route53.',
+                description: 'Implementing infrastructure changes using AWS tools such as S3, CloudFront, CloudFormation, Route53 and building application pipelines using AWS CDK.',
             },
             {
                 description: 'Participating in on-call rotation to resolve customer facing issues and run weekly team schedule.',
             },
+            {
+                description: 'Spent a significant time each week peer programming and getting engineers with less front end experience up to speed.',
+            },
+        ],
+        stats: [
+            { name: 'Development', percentage: 50 },
+            { name: 'Peer Programming', percentage: 15 },
+            { name: 'Agile', percentage: 10 },
+            { name: 'Architecture/DevOps', percentage: 10 },
+            { name: 'PR/Code Reviews', percentage: 5 },
+            { name: 'On-Call', percentage: 5 },
+            { name: 'Learning', percentage: 5 },
+        ],
+        tags: [
+            'React',
+            'TypeScript',
+            'React Testing Library',
+            'AWS SDK',
+            'CodeCommit',
+            'Ruby',
+            'Demos',
+            'Agile',
+            'Cypress',
+            'Remote',
         ],
     },
     {
@@ -570,7 +612,8 @@ exports.jobs = [
         start: new Date('2022-03-02'),
         ended: new Date('2021-08-02'),
         stack: 'Front End',
-        headline: 'in my second stint with Maximus, I mostly worked on integrating the application with the Genesys Cloud WebApp. The tools is used by call center agents to receive and makes calls as well as live chat with customers. Integrating the call widget a bit of a challenge as it was the first time I had worked with pushing messages between windows. Working on something new and challenging is always rewarding even if frustrating a first and im sure there are hundreds of thousands if not millions or americans utilizing that functionality today. If you have a state or federally managed health care plan and have ever called in to speak with a representative, you may have used the application I worked on.',
+        positionType: 'Contract',
+        headline: 'In my second stint with Maximus, I mostly worked on integrating the application with the Genesys Cloud WebApp. The tools is used by call center agents to receive and makes calls as well as live chat with customers. Integrating the call widget was a bit of a challenge as it was the first time I had worked with pushing messages between windows. Working on something new and challenging is always rewarding even if frustrating a first and im sure there are hundreds of thousands if not millions of americans on the engaging with agents utilizing this functionality today. If you have a state or federally managed health care plan and have ever called in to speak with a representative, you may have used the application I worked on.',
         bullets: [
             {
                 description: 'Developing new product features for the critical external web app using React/Redux.',
@@ -582,6 +625,22 @@ exports.jobs = [
                 description: 'Assessing project requirements using Agile & Scrum principles related to the high-volume customers-facing portal that helped prioritize developing activities and reduce ad hoc work requests.',
             },
         ],
+        stats: [
+            { name: 'Architecture', percentage: 15 },
+            { name: 'Development', percentage: 57.25 },
+            { name: 'Code Reviews', percentage: 10 },
+            { name: 'Peer programming', percentage: 2.5 },
+            { name: 'Agile', percentage: 15 },
+        ],
+        tags: [
+            'React',
+            'Demos',
+            'Agile',
+            'Jest',
+            'Jenkins',
+            'Pivotal Cloud Foundry',
+            'Remote',
+        ],
     },
     {
         id: 4,
@@ -591,10 +650,45 @@ exports.jobs = [
         start: new Date('2020-12-02'),
         ended: new Date('2021-08-02'),
         stack: 'Front End',
-        headline: "No disrespect to other teams I have worked with but team that brings Flex, Xfinity and PlatCo to your home might be the best team ive worked with so far. The work is super tedious and detail oriented but the team is amazing. This one took me out of my comfort zone because LightningJS make you think differently. The framework is made for streaming applications with low memory such ad televisions streaming devices and set top boxes. I was able to contribute to the design system and create a few components that are still in use today. I like to throw this out there to anyone who will listen, If you watched the Olympics a few years back I'm the guy who was assigned the story to add the logo to your screen (cheap plug). I plan on contributing to the LightningJS open source repo in the future",
+        positionType: 'Contract',
+        headline: "The team that brings Flex, Xfinity and PlatCo to your home might be the best team I've worked with so far. The work is super tedious and detail oriented but the team is amazing. The bar was set pretty high with 99% code coverage threshold in unit testing. This one took me out of my comfort zone because LightningJS make you think differently. The framework is made for streaming applications with low memory such ad televisions streaming devices and set top boxes. I was able to contribute to the design system and create a few components that are still in use today. I like to throw this out there to anyone who will listen, If you watched the Olympics a few years back I'm the guy who was assigned the story to add the logo to your screen (cheap plug). I plan on contributing to the LightningJS open source repo in the future",
         bullets: [
             {
-                description: 'Developing new product features, components and defect resolution and utilizing Angular.',
+                description: 'Development of new user interface components, contributing to code libraries of multiple applications including Comcast Flex, Xfinity and Platco.',
+            },
+            {
+                description: 'Serve as a liason between design and stakeholders for planning of new features.',
+            },
+            {
+                description: 'Participating in agile sprint planning, running meetings, and reporting to stakeholders.',
+            },
+            {
+                description: 'Serve as an SME on application of the lightning framework as well as internal lightning libraries and/or open-source lightning code.',
+            },
+        ],
+        stats: [
+            { name: 'Development', percentage: 65 },
+            { name: 'Code Reviews', percentage: 10 },
+            { name: 'Peer programming', percentage: 5 },
+            { name: 'Agile', percentage: 20 },
+        ],
+        tags: ['LightningJS', 'React', 'Demos', 'Agile', 'Cypress', 'Remote'],
+    },
+    {
+        id: 5,
+        title: 'Lead Software Engineer',
+        companyName: 'Maximus',
+        companyUrl: 'https://www.maximus.com/',
+        start: new Date('2019-02-02'),
+        ended: new Date('2020-12-02'),
+        stack: 'Front End',
+        positionType: 'Contract to Hire',
+        bullets: [
+            {
+                description: 'Leading the ui effort to build a next generation call center CRM from the ground up',
+            },
+            {
+                description: 'Making infrastructure decisions and implementing new features in React/Redux.',
             },
             {
                 description: 'Implementing offline testing tools and modules for rapid development, unit testing and mitigating code duplicity.',
@@ -606,28 +700,20 @@ exports.jobs = [
                 description: 'Participating in agile processes including sprint planning, story pointing, demos and retrospectives.',
             },
         ],
-    },
-    {
-        id: 5,
-        title: 'Lead Software Engineer',
-        companyName: 'Maximus',
-        companyUrl: 'https://www.maximus.com/',
-        start: new Date('2019-02-02'),
-        ended: new Date('2020-12-02'),
-        stack: 'Front End',
-        bullets: [
-            {
-                description: 'Developing new product features, components and defect resolution and utilizing Angular.',
-            },
-            {
-                description: 'Implementing offline testing tools and modules for rapid development, unit testing and mitigating code duplicity.',
-            },
-            {
-                description: 'Integrating with third-party modules and external APIs for reporting, user interface events capturing and user management.',
-            },
-            {
-                description: 'Participating in agile processes including sprint planning, story pointing, demos and retrospectives.',
-            },
+        stats: [
+            { name: 'Development', percentage: 65 },
+            { name: 'Code Reviews', percentage: 15 },
+            { name: 'Peer programming', percentage: 10 },
+            { name: 'Agile', percentage: 10 },
+        ],
+        tags: [
+            'React',
+            'Demos',
+            'Agile',
+            'Jest',
+            'Jenkins',
+            'Pivotal Cloud Foundry',
+            'Remote',
         ],
     },
     {
@@ -663,6 +749,20 @@ exports.jobs = [
             { description: 'Tracking of progress of assigned tickets in JIRA.' },
             { description: 'Defect resolution. ' },
         ],
+        stats: [
+            { name: 'Development', percentage: 75 },
+            { name: 'Code Reviews', percentage: 5 },
+            { name: 'Peer programming', percentage: 10 },
+            { name: 'Agile', percentage: 15 },
+        ],
+        tags: [
+            'Angular',
+            'Karma',
+            'Agile',
+            'FDA',
+            'Federal Government',
+            'Clearance',
+        ],
     },
     {
         id: 7,
@@ -692,6 +792,12 @@ exports.jobs = [
                 description: 'Created tickets, responded to customer service request, logged issues, resolved defects via Zendesk.',
             },
         ],
+        stats: [
+            { name: 'Development', percentage: 87.5 },
+            { name: 'Tech Support', percentage: 10 },
+            { name: 'Network Support', percentage: 2.5 },
+        ],
+        tags: ['ExtJS', 'Bootstrap', 'jQuery', 'ColdFusion', 'C#', 'Zendesk'],
     },
     {
         id: 8,
@@ -736,6 +842,24 @@ exports.jobs = [
             {
                 description: 'Work on multiple project teams with senior management to enhance association systems. Attending out of state vendor presentations and system implementation planning sessions. Manage vendor relationships and deadlines for products and services.',
             },
+        ],
+        stats: [
+            { name: 'Development', percentage: 35 },
+            { name: 'Design', percentage: 30 },
+            { name: 'Tech Support', percentage: 10 },
+            { name: 'Vendor Management', percentage: 10 },
+            { name: 'Member Support', percentage: 5 },
+            { name: 'Off-Site Travel', percentage: 10 },
+        ],
+        tags: [
+            'Vanilla JS',
+            'Bootstrap',
+            'jQuery',
+            'PHP',
+            'Adobe Suite',
+            'Design',
+            'Tech Support',
+            'Adobe CQ5',
         ],
     },
 ];
