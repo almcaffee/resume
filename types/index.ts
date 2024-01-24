@@ -33,6 +33,16 @@ export interface Position {
   headline?: string;
   stats?: Array<PositionUse>;
   stack?: Stack;
+  tags?: Array<string>;
+  keyContributions?: Array<{ title: string; description: string }>;
+  positionType?:
+    | 'Perm'
+    | 'Temp'
+    | 'Contract'
+    | 'Contract to Hire'
+    | 'Internship'
+    | 'Freelance'
+    | 'Volunteer';
 }
 
 export declare type Stack = 'Full Stack' | 'Front End';
