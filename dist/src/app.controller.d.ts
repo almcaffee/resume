@@ -9,4 +9,5 @@ export declare class AppController {
     getDevops(): Array<Skill>;
     getVersionControl(): Array<Skill>;
     getApis(): Array<Skill>;
+    getSkills(): Array<Skill>;
 }

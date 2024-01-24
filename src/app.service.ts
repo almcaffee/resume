@@ -12,7 +12,6 @@ import { Experience, Skill } from 'types';
 
 @Injectable()
 export class AppService {
-  private readonly languages: Array<Experience> = languages;
   private readonly apis: Array<Skill> = api;
   private readonly testing: Array<Skill> = test;
   private readonly development: Array<Skill> = development;
@@ -46,5 +45,16 @@ export class AppService {
 
   getApis(): Array<Skill> {
     return this.apis;
+  }
+
+  getAll(): Array<Skill> {
+    return [
+      ...this.testing,
+      ...this.development,
+      ...this.agile,
+      ...this.devops,
+      ...this.versionControl,
+      ...this.apis,
+    ];
   }
 }

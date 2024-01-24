@@ -16,17 +16,13 @@ import { ConfigModule } from '@nestjs/config';
     ConfigModule.forRoot(),
     ServeStaticModule.forRoot(
       {
-        rootPath: join(__dirname, '..', '../angular'),
-        renderPath: '/angular',
-        serveRoot: '/angular/',
+        rootPath: join(__dirname, '..', '../.well-known/acme-challenge/'),
+        serveRoot: '/.well-known/acme-challenge/',
       },
       {
-        rootPath: join(__dirname, '..', '../assets'),
-        serveRoot: '/assets/',
-      },
-      {
-        rootPath: join(__dirname, '..', '../react'),
-        renderPath: '/react',
+        rootPath: join(__dirname, '..', '../angular/browser'),
+        renderPath: '/',
+        serveRoot: '/',
       },
     ),
   ],

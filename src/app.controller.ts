@@ -185,4 +185,26 @@ export class AppController {
   getApis(): Array<Skill> {
     return this.appService.getApis();
   }
+
+  @ApiTags('apis')
+  @ApiResponse({
+    status: 200,
+    description: 'Successful operation',
+    type: ResumeSkill,
+    isArray: true,
+  })
+  @ApiResponse({
+    status: 401,
+    description: 'Unauthorized',
+    type: String,
+  })
+  @ApiResponse({
+    status: 500,
+    description: 'Server error',
+    type: String,
+  })
+  @Get('/skills')
+  getSkills(): Array<Skill> {
+    return this.appService.getAll();
+  }
 }

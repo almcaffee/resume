@@ -36,6 +36,9 @@ let AppController = class AppController {
     getApis() {
         return this.appService.getApis();
     }
+    getSkills() {
+        return this.appService.getAll();
+    }
 };
 exports.AppController = AppController;
 __decorate([
@@ -206,6 +209,29 @@ __decorate([
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Array)
 ], AppController.prototype, "getApis", null);
+__decorate([
+    (0, swagger_1.ApiTags)('apis'),
+    (0, swagger_1.ApiResponse)({
+        status: 200,
+        description: 'Successful operation',
+        type: entities_1.ResumeSkill,
+        isArray: true,
+    }),
+    (0, swagger_1.ApiResponse)({
+        status: 401,
+        description: 'Unauthorized',
+        type: String,
+    }),
+    (0, swagger_1.ApiResponse)({
+        status: 500,
+        description: 'Server error',
+        type: String,
+    }),
+    (0, common_1.Get)('/skills'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", Array)
+], AppController.prototype, "getSkills", null);
 exports.AppController = AppController = __decorate([
     (0, common_1.Controller)(),
     __metadata("design:paramtypes", [app_service_1.AppService])

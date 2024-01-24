@@ -27,15 +27,12 @@ exports.AppModule = AppModule = __decorate([
             experience_module_1.ExperienceModule,
             config_1.ConfigModule.forRoot(),
             serve_static_1.ServeStaticModule.forRoot({
-                rootPath: (0, path_1.join)(__dirname, '..', '../angular'),
-                renderPath: '/angular',
-                serveRoot: '/angular/',
+                rootPath: (0, path_1.join)(__dirname, '..', '../.well-known/acme-challenge/'),
+                serveRoot: '/.well-known/acme-challenge/',
             }, {
-                rootPath: (0, path_1.join)(__dirname, '..', '../assets'),
-                serveRoot: '/assets/',
-            }, {
-                rootPath: (0, path_1.join)(__dirname, '..', '../react'),
-                renderPath: '/react',
+                rootPath: (0, path_1.join)(__dirname, '..', '../angular/browser'),
+                renderPath: '/',
+                serveRoot: '/',
             }),
         ],
         controllers: [app_controller_1.AppController],

@@ -1,6 +1,5 @@
 import { Skill } from 'types';
 export declare class AppService {
-    private readonly languages;
     private readonly apis;
     private readonly testing;
     private readonly development;
@@ -14,4 +13,5 @@ export declare class AppService {
     getDevops(): Array<Skill>;
     getVersionControl(): Array<Skill>;
     getApis(): Array<Skill>;
+    getAll(): Array<Skill>;
 }

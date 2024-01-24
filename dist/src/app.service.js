@@ -11,7 +11,6 @@ const common_1 = require("@nestjs/common");
 const experience_1 = require("../db/data/experience");
 let AppService = class AppService {
     constructor() {
-        this.languages = experience_1.languages;
         this.apis = experience_1.api;
         this.testing = experience_1.test;
         this.development = experience_1.development;
@@ -39,6 +38,16 @@ let AppService = class AppService {
     }
     getApis() {
         return this.apis;
+    }
+    getAll() {
+        return [
+            ...this.testing,
+            ...this.development,
+            ...this.agile,
+            ...this.devops,
+            ...this.versionControl,
+            ...this.apis,
+        ];
     }
 };
 exports.AppService = AppService;
