@@ -32,6 +32,6 @@ export const swaggerDocumentOptions: SwaggerDocumentOptions = {
 
 export const customSwaggerOptions: SwaggerCustomOptions = {
   customSiteTitle: 'Resume REST API',
-  customCssUrl: '/assets/swagger-custom.css',
-  customJs: '/assets/swagger-custom.js',
+  customCssUrl: '/swagger/swagger-custom.css',
+  customJs: '/swagger/swagger-custom.js',
 };

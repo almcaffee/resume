@@ -23,7 +23,7 @@ exports.swaggerDocumentOptions = {
 };
 exports.customSwaggerOptions = {
     customSiteTitle: 'Resume REST API',
-    customCssUrl: '/assets/swagger-custom.css',
-    customJs: '/assets/swagger-custom.js',
+    customCssUrl: '/swagger/swagger-custom.css',
+    customJs: '/swagger/swagger-custom.js',
 };
 //# sourceMappingURL=static.js.map

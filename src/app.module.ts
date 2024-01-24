@@ -20,6 +20,10 @@ import { ConfigModule } from '@nestjs/config';
         serveRoot: '/.well-known/acme-challenge/',
       },
       {
+        rootPath: join(__dirname, '..', '../swagger/'),
+        serveRoot: '/swagger/',
+      },
+      {
         rootPath: join(__dirname, '..', '../angular/browser'),
         renderPath: '/',
         serveRoot: '/',

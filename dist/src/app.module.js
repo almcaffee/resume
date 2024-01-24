@@ -30,6 +30,9 @@ exports.AppModule = AppModule = __decorate([
                 rootPath: (0, path_1.join)(__dirname, '..', '../.well-known/acme-challenge/'),
                 serveRoot: '/.well-known/acme-challenge/',
             }, {
+                rootPath: (0, path_1.join)(__dirname, '..', '../swagger/'),
+                serveRoot: '/swagger/',
+            }, {
                 rootPath: (0, path_1.join)(__dirname, '..', '../angular/browser'),
                 renderPath: '/',
                 serveRoot: '/',
